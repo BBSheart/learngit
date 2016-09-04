@@ -1,0 +1,13 @@
+body {
+	padding:0px;margin:0px;font-family: "microsoft yahei";
+}
+ul,li,p,h1,h2,h3,h4,h5,h6{
+	padding:0px;margin:0px;
+}
+p,em,h1,h2,h3,h4,h5,h6{font-style:normal;}
+ul,li{list-style:none;}
+a{text-decoration: none;}
+
+
+
+

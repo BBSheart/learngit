@@ -1,0 +1,18 @@
+body{
+
+}
+div{
+    width: 100px;
+    height: 100px;
+    background: #4cae4c;
+    border: 1px solid #fff;
+    float: left;
+}
+.div{
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+.div1{background: #f7a831}
+.div2{background: #849bf7}
+.div3{background: #f74bda}

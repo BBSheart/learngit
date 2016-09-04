@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>jquery效果 隐藏/显示</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="../script/jquery-3.1.0.min.js"></script>
+    <script src="./demo.js"></script>
+</head>
+<body>
+    <p style="line-height: 50px;background: red">Hello Smon</p>
+    <button id="btn1">隐藏</button>
+    <button id="btn2">显示</button>
+    <button id="toggle">隐藏/显示</button>
+    <br/><br/>
+    <button id="show">SHOW ALL</button>
+    <br/><br/>
+</body>
+<script>
+    for (var i= 0;i<5;i++){
+        $('<div>').appendTo($('body'));
+    }
+    $('div').click(function () {
+        $(this).hide(1000, function () {
+            $(this).remove();
+        });
+    });
+    $('#show').click(function(){
+       $('div').toggle(500);
+    })
+</script>
+</html>
